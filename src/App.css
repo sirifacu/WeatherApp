@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.detail {
+  margin-top: 10px;
+  background: #999;
+  height: 80vh;
+  width: 100%;
+  overflow: auto;
+}
+
+@media (max-width: 64em) {
+  .detail {
+    height: 45vh;
+    margin-top: 0px;
+  }
+}
